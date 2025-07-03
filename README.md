@@ -1,7 +1,7 @@
 # RLPathFollowing
 Double Integrator RL agent Path Following 
 
-## Project Description
+## Project Description 
 I have implemented a double integrator dynamics (as a quadrotor) for path following with a PD controller and obstacle avoidance with the potential field method. The agent is a point mass system with a double integrator dynamics, and it should follow the reference path while avoiding static and dynamic obstacles. The simulation is done in Simulink. But the reference path is a .csv file generated from a Python script. Since my simulation step size is set fixed at 0.01 second, the reference path step size (dt) is also set to 0.01 second. 
 
 It includes three phases: 
